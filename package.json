@@ -1,0 +1,19 @@
+{
+  "name": "abc-assestment",
+  "version": "1.0.0",
+  "description": "assestment for browser automation by using webdriverio with chrome driver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omer Baris Ayaz",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^4.12.0"
+  },
+  "devDependencies": {
+    "chromedriver": "^2.38.3",
+    "wdio-chromedriver-service": "^0.1.3",
+    "wdio-mocha-framework": "^0.5.13"
+  }
+}
