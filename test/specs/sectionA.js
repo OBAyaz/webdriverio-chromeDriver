@@ -59,7 +59,7 @@ describe('ABC NEWS PAGE', function() {
        }
      }
 
-     assert.equal(JSON.stringify(hasMissingFeature), JSON.stringify(expectedResult)); // this checks object reference! will not be equal as expected! You need to iterate object
+     assert.equal(JSON.stringify(hasMissingFeature), JSON.stringify(expectedResult));
 
   })
 
