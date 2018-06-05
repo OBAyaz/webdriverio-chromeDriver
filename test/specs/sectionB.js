@@ -47,8 +47,9 @@ describe('ABC RADIO PAGE', function() {
   });
 
   // 3) Verify can search for content in the search bar and that content is returned.
-  it('Economist program should be selected from sub-menu', function () {
-
+  it('Search bar should work', function () {
+      
+      // Query string "a" for simplicity, could be any string.
       browser.setValue('input#search-simple-input-query', 'a')
       browser.elementIdClick($('input#search-simple-input-submit').value.ELEMENT);
       assert.equal(browser.getUrl(), 'http://www.abc.net.au/radionational/search/?query=a');
