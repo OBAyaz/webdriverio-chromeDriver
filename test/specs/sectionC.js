@@ -4,7 +4,7 @@ var options = {
   host: 'program.abcradio.net.au',
   path: '/api/v1/programs/ppJj0E8g2R.json'
 };
-var jsonFile = require('../JSON/ppJj0E8g2R.json')
+//var jsonFile = require('../JSON/ppJj0E8g2R.json')
 
 describe('JSON API INTEGRATION TESTS', function() {
 
